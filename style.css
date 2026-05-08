@@ -1,0 +1,72 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header style */
+header {
+    background-color: #1F2937;
+    min-height: 300px;
+}
+
+.banner, .navigation {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.navigation {
+    margin-bottom: 48px;
+}
+
+/* Header Flex rules */
+header nav.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav .menu ul{
+    display: flex;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Navigation design */
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+
+
+/* Banner design */
+.banner-text h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.banner-text p {
+
+    font-size: 18px;
+    color: #E5E7EB
+}
+.banner-text {
+    padding-right: 32px;
+}
