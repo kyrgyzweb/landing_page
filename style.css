@@ -43,8 +43,8 @@ header nav .menu ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 16px;
-    padding-bottom: 16px;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
 }
 
 /* Navigation design */
@@ -93,6 +93,7 @@ header nav .menu ul{
     background-color: #3883f6;
     color: white;
     padding: 6px 16px;
+    border: 1px solid #fff;
     border-radius: 8px;
 }
 
@@ -170,4 +171,41 @@ blockquote + p {
     text-align: right;
     font-weight: 800;
 
+}
+
+/* ACTIION */
+.action {
+margin: 30px auto;
+padding: 16px;
+}
+.blue-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 32px 60px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blue-container h4, .blue-container p {
+    color: #fff;
+}
+
+.blue-container button {
+    color: #e5e7eb;
+    background-color: #3882f6;
+    padding: 6px 16px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #1F2937;
+    padding:  32px;
+}
+footer p {
+    text-align: center;
+    color: #E5E7EB;
 }
