@@ -142,4 +142,32 @@ header nav .menu ul{
 }
 
 
-/*  */
+/* QUOTE  */
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1F2937;
+}
+blockquote {
+    width: 700px;
+    margin: 0 auto;
+    padding: 60px 32px 6px 32px;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+blockquote p::before {
+    content: "\201C";
+}  
+blockquote p::after {
+    content: "\201D";
+}
+
+blockquote + p {
+    width: 700px;
+    margin: 5px auto;
+    padding: 0 32px 60px 32px;
+    text-align: right;
+    font-weight: 800;
+
+}
