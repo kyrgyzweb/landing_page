@@ -98,3 +98,42 @@ header nav .menu ul{
     padding: 6px 16px;
     border-radius: 8px;
 }
+
+/* Main Section */
+/* Random Info */
+
+.random-info-box {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    padding-top: 40px;
+    border: 1px solid red;
+
+}
+
+.random-info-text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.outer-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.box {
+    width: 150px;
+    height: 150px;
+    border: 1px solid green;
+}
